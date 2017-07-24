@@ -1,0 +1,37 @@
+{
+    "extends": "rallycoding",
+    "env": {
+        "node": true,
+        "mocha": true,
+        "es6": true
+    },
+    "globals": {
+        "expect": true,
+        "request": true,
+        "expectProperties": true,
+        "async": true,
+        "bring": true,
+        "ErrorCodes": true,
+        "utils": true,
+        "Schema": true,
+        "createRequest": true,
+        "expectStatusCode": true,
+        "smsProvider": true,
+        "moment": true,
+        "sails": true,
+        "_": true
+    },
+    "rules": {
+        "arrow-body-style": ["error", "always"],
+        "no-underscore-dangle": "off",
+        "max-len": ["warn", 120],
+        "guard-for-in": "off",
+        "no-restricted-syntax": [
+            "error",
+            "DebuggerStatement",
+            "LabeledStatement",
+            "WithStatement"
+        ],
+        "no-param-reassign": "off"
+    }
+}
