@@ -1,6 +1,6 @@
 {
     "name": "eslint-config-hedco",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "description": "",
     "main": "index.js",
     "scripts": {
@@ -8,6 +8,10 @@
     },
     "author": "Majid Parvin",
     "license": "ISC",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/hedco-dev/eslint-config-hedco"
+    },
     "dependencies": {
         "eslint-config-rallycoding": "^3.2.0"
     }
