@@ -10,7 +10,7 @@
         "_": true
     },
     "rules": {
-        "arrow-body-style": ["error", "always"],
+        "arrow-body-style": "off",
         "no-underscore-dangle": "off",
         "max-len": ["warn", 120],
         "guard-for-in": "off",
@@ -21,6 +21,6 @@
             "WithStatement"
         ],
         "no-param-reassign": "off",
-        "key-spacing": ["error", { "align": "colon" }]
+        "key-spacing": ["error", { "align": "value" }]
     }
 }
