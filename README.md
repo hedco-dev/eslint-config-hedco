@@ -17,7 +17,7 @@ $ npm install eslint-config-hedco --save
 
 ## Configuration
 
-You'll have a `.eslintrc` or `.eslintrx.js` file in your directory. In it, you must put the `extends:'hedco'` in the JSON where you'll see some rules configured like this:
+You'll have a `.eslintrc` or `.eslintrc.js` file in your directory. In it, you must put the `extends:'hedco'` in the JSON where you'll see some rules configured like this:
 
 ```json
 {
