@@ -1,6 +1,6 @@
 {
     "name": "eslint-config-hedco",
-    "version": "0.0.7",
+    "version": "0.0.8",
     "description": "A customized AST-based pattern checker for JavaScript.",
     "main": "index.js",
     "scripts": {
